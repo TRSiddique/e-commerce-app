@@ -31,7 +31,18 @@ ShopSpot is a stylish and simple Flutter app that displays a product list from a
 ---
 
 ## 📂 Project Structure
-lib/ ├── main.dart ├── home.dart ├── product.dart ├── product_list.dart ├── cart_page.dart ├── data/ │ └── products.json
+/lib
+ ├── main.dart
+ ├── models/
+ │     └── product.dart
+ ├── pages/
+ │     ├── home.dart
+ │     ├── product_list.dart
+ │     ├── product_details.dart
+ │     └── cart_page.dart
+ ├── widgets/
+ │     └── product_card.dart
+ └── cart_list.dart
 
 
 ---
@@ -44,8 +55,6 @@ lib/ ├── main.dart ├── home.dart ├── product.dart ├── pr
    cd shopspot
 
 
-📄 License
-MIT License. Feel free to use and modify!
 
 👨‍💻 Developed by
 Tasfiqur Rahman Siddique
